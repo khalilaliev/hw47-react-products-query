@@ -1,7 +1,9 @@
+import Product from "../components/Products/Product";
+
 const Products = () => {
   return (
     <>
-      <h1>Products</h1>
+      <Product />
     </>
   );
 };

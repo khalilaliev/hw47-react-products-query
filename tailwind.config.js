@@ -6,7 +6,11 @@ export default {
       center: true,
       padding: "2rem",
     },
-    extend: {},
+    extend: {
+      height: {
+        500: "350px",
+      },
+    },
   },
   plugins: [require("rippleui")],
 };
